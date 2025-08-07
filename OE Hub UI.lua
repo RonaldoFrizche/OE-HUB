@@ -1,7 +1,7 @@
 -- OE Hub Tarafından Annelleri Sikildi
 
 local LocalPlayer = game.Players.LocalPlayer
-local var2 = loadstring(game:HttpGet("https://raw.githubusercontent.com/RonaldoFrizche/OE-HUB/main/OE%20Hub"))()
+local var2 = loadstring(game:HttpGet("https://raw.githubusercontent.com/RonaldoFrizche/OE-HUB/refs/heads/main/OE%20Hub.lua"))()
 local MakeWindow = var2:MakeWindow({
 	ConfigFolder = "OrionTest",
 	HidePremium = false,
