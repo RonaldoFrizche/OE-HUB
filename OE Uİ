@@ -1,7 +1,7 @@
 -- OE Hub Tarafından Annelleri Sikildi
 
 local LocalPlayer = game.Players.LocalPlayer
-local var2 = loadstring(game:HttpGet("https://raw.githubusercontent.com/RonaldoFrizche/OE-HUB/refs/heads/main/OE%20Hub"))()
+local var2 = loadstring(game:HttpGet(""))()
 local MakeWindow = var2:MakeWindow({
 	ConfigFolder = "OrionTest",
 	HidePremium = false,
@@ -16,10 +16,7 @@ local MakeTab = MakeWindow:MakeTab({
 local AddSection = MakeTab:AddSection({
 	Name = "- UI Anasayfası -"
 })
-local _ = MakeTab:AddParagraph("OE Hub Hub – TA V1.6.4 Büyük Güncelleme! ", " \n▶┆ Oto Parkur Yapma Eklendi.\n \n▶┆ Araba Sürme Eklendi.\n \n▶┆ Lag Server Eklendi.\n \n▶┆ Modlu Glock-17 Eklendi.\n\n▶┆ Anti-Track Geliştirildi.\n\n▶┆ Kill All İçin Menü Eklendi.\n\n▶┆ Bring Players Eklendi.\n\n▶┆ Yüz Değiştirme Eklendi.\n\n▶┆ NPC Kontrol Eklendi.\n\n▶┆ Animasyon Toolları Eklendi.\n\n▶┆ THO Para Hilesi Eklendi.\n\n▶┆ TPT Eğitim Açma Eklendi.\n\n▶┆ Basit Kamplar İçin Team Changer Eklendi.\n\n▶┆ TA Sahte Çark Çevirme Eklendi.\n\n▶┆ TA Sahte Transfer Eklendi.\n\n▶┆ Sahte Sohbet Mesajı Eklendi.\n\n▶┆ Hitbox Expander Eklendi.\n\n▶┆ Aimbot Eklendi.\n\n▶┆ Silent Aim Eklendi.\n\n•┆ Not: Bu hile tamamen ücretsizdir, para ile satan olur ise bizimle iletişime geçin.\n\n\n\n")
-MakeTab:AddParagraph("UI Developers:", " \n•┆ @kaansfriztche\n\n•┆ @ross_x1\n\n•┆ @chesterfield09\n\n•┆ @sametaslan37373\n\n•┆ @krafi_q\n")
-MakeTab:AddParagraph("Content Creators:", "\n•┆ @xenty1111 (Saygılarımızla.)\n")
-local MakeTab_2 = MakeWindow:MakeTab({
+local _ = MakeTab:AddParagraph("OE Hub – TA V1.6.4 Büyük Güncelleme! ", " \n▶┆ Oto Parkur Yapma Eklendi.\n \n▶┆ Araba Sürme Eklendi.\n \n▶┆ Lag Server Eklendi.\n \n▶┆ Modlu Glock-17 Eklendi.\n\n▶┆ Anti-Track Geliştirildi.\n\n▶┆ Kill All İçin Menü Eklendi.\n\n▶┆ Bring Players Eklendi.\n\n▶┆ Yüz Değiştirme Eklendi.\n\n▶┆ NPC Kontrol Eklendi.\n\n▶┆ Animasyon Toolları Eklendi.\n\n▶┆ THO Para Hilesi Eklendi.\n\n▶┆ TPT Eğitim Açma Eklendi.\n\n▶┆ Basit Kamplar İçin Team Changer Eklendi.\n\n▶┆ TA Sahte Çark Çevirme Eklendi.\n\n▶┆ TA Sahte Transfer Eklendi.\n\n▶┆ Sahte Sohbet Mesajı Eklendi.\n\n▶┆ Hitbox Expander Eklendi.\n\n▶┆ Aimbot Eklendi.\n\n▶┆ Silent Aim Eklendi.\n\n•┆ Not: Bu hile tamamen ücretsizdir, para ile satan olur ise bizimle iletişime geçin.\n\n\n\n")
 	PremiumOnly = false,
 	Name = "▶┆ OP & Rütbe",
 	Icon = "rbxassetid://4483345998"
@@ -75,7 +72,7 @@ local AddButton_6 = MakeTab_2:AddButton({
 local AddButton_7 = MakeTab_2:AddButton({
 	Name = "• OE Hub Sohbet Alanı",
 	Callback = function(...)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/valoscripter/Salamsucuksosis/refs/heads/main/OE HubChat.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/valoscripter/Salamsucuksosis/refs/heads/main/SydearrChat.lua"))()
 	end
 })
 local AddButton_8 = MakeTab_2:AddButton({
@@ -189,7 +186,7 @@ local AddButton_23 = MakeTab_3:AddButton({
 	end
 })
 local AddButton_24 = MakeTab_3:AddButton({
-	Name = "• Görünmez Ol (OE Hub Made)",
+	Name = "• Görünmez Ol (Sydearr Made)",
 	Callback = function(...)
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaanfriztche/Open-source-/refs/heads/main/G%C3%B6r%C3%BCnmezOl.lua"))()
 	end
@@ -316,7 +313,7 @@ local MakeNotification_2 = var2:MakeNotification({
 	Time = 8,
 	Image = "rbxassetid://4483345998",
 	Name = "Hoşgeldin!",
-	Content = "OE Hub Hub'a Hoşgeldin!"
+	Content = "Sydearr Hub'a Hoşgeldin!"
 })
 local AddButton_42 = MakeTab_5:AddButton({
 	Name = "• Denetim Alanı",
@@ -503,14 +500,14 @@ local AddSection_12 = MakeTab_7:AddSection({
 	Name = "- Bize Buralardan Ulaşabilirsiniz -"
 })
 local AddButton_69 = MakeTab_7:AddButton({
-	Name = "• OE Hub Team Linkini Kopyala.",
+	Name = "• Sydearr Team Linkini Kopyala.",
 	Callback = function(...)
 		local _ = setclipboard("https://discord.gg/MNpCQj6tXE")
 		local _ = toclipboard("https://discord.gg/MNpCQj6tXE")
 	end
 })
-MakeTab_7:AddParagraph("UI Developers:", " \n•┆ @kaansfriztche\n\n•┆ @ross_x1\n\n•┆ @chesterfield09\n\n•┆ @sametaslan37373\n\n•┆ @krafi_q\n")
-MakeTab_7:AddParagraph("Content Creators:", "\n•┆ @xenty1111 (Saygılarımızla.)\n")
+MakeTab_7:AddParagraph("UI Developers:", "
+•┆ @Reage")
 local MakeTab_8 = MakeWindow:MakeTab({
 	PremiumOnly = false,
 	Name = "▶┆ Diğer",
@@ -556,9 +553,9 @@ local AddButton_75 = MakeTab_8:AddButton({
 	end
 })
 local AddButton_76 = MakeTab_8:AddButton({
-	Name = "• Her Şey OE Hub",
+	Name = "• Her Şey Sydearr",
 	Callback = function(...)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaanfriztche/Open-source-/refs/heads/main/Her%C5%9EeyOE Hub.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaanfriztche/Open-source-/refs/heads/main/Her%C5%9EeySydearr.lua"))()
 	end
 })
 local AddButton_77 = MakeTab_8:AddButton({
